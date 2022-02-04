@@ -10,7 +10,8 @@ FROM osixia/keepalived:latest
 # Download, build and install Keepalived
 RUN apk --no-cache add \
     tcpdump 
-    
+
+USER 0
 # Add service directory to /container/service
 #ADD service /container/service
 
