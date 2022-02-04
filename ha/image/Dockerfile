@@ -7,3 +7,5 @@ RUN apk add --no-cache \
     openssl \
     tcpdump \
     keepalived
+
+CMD [ "/bin/bash", "-ce", "tail -f /dev/null" ]
