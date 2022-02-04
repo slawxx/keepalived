@@ -1,11 +1,6 @@
-apiVersion: 2.0.0
+v2.1
+---
+schemaVersion: 2.1.0
 metadata:
-  name: petclinic-dev-environment
-projects:
-  - name: petclinic
-    source:
-      type: git
-      location: 'https://github.com/spring-projects/spring-petclinic.git'
-components:
-  - type: chePlugin
-    id: redhat/java/latest
+  name: devfile-sample
+  version: 2.1.0
