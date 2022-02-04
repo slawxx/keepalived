@@ -2,7 +2,7 @@
 #
 # Use osixia/light-baseimage
 # sources: https://github.com/osixia/docker-light-baseimage
-FROM osixia/keepalived:latest
+FROM osixia/keepalived #:latest
 
 # Keepalived version
 #ARG KEEPALIVED_VERSION=2.0.20
