@@ -8,4 +8,4 @@ RUN apk add --no-cache \
     tcpdump \
     keepalived
 
-CMD [ "/bin/bash", "-ce", "tail -f /dev/null" ]
+CMD [ "/bin/sh", "-ce", "tail -f /dev/null" ]
