@@ -1,0 +1,7 @@
+projects:
+  - name: devfileproject
+    git:
+      remotes:
+        origin: "https://github.com/slawxx/slawxx.git"
+      checkoutFrom:
+        revision: main  
