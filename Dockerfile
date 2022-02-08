@@ -1,7 +1,7 @@
 #Extending osixia image
 FROM osixia/keepalived:latest
 
-# Download, build and install Keepalived
+# Upgrade, Download and Install tcpdump and ip6tables
 RUN apk upgrade
 RUN apk --no-cache add \
     tcpdump \
