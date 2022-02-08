@@ -1,9 +1,9 @@
 schemaVersion: 2.1.0
 metadata:
-  name: ha
+  name: cni-network
   version: 2.0.0
 projects:
-  - name: ha 
+  - name: cni-network
     git:
       remotes:
         origin: "https://github.com/slawxx/slawxx.git"
