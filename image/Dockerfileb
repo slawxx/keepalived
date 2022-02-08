@@ -1,5 +1,0 @@
-FROM docker.io/ubuntu:latest
-RUN apt-get -y update
-RUN apt-get -y install util-linux
-RUN apt-get -y install iproute2
-CMD [ "/bin/bash", "-ce", "tail -f /dev/null" ]
