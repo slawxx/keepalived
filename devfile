@@ -1,11 +1,11 @@
 schemaVersion: 2.1.0
 metadata:
   name: cni-network
-  version: 2.0.0
+  version: 1.0.0
 projects:
   - name: cni-network
     git:
-       remotes:
-         origin: "https://github.com/slawxx/slawxx.git"
-       checkoutFrom:
-         revision: main
+      remotes:
+        origin: "https://github.com/slawxx/slawxx.git"
+      checkoutFrom:
+        revision: main
