@@ -4,8 +4,8 @@ metadata:
   version: 2.0.0
 projects:
   - name: cni-network
-      git:
-        remotes:
-          origin: "https://github.com/slawxx/slawxx.git"
-        checkoutFrom:
-          revision: main
+    git:
+       remotes:
+         origin: "https://github.com/slawxx/slawxx.git"
+       checkoutFrom:
+         revision: main
