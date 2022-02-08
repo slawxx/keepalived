@@ -1,6 +1,7 @@
 schemaVersion: 2.1.0
 metadata:
   name: mydevfile
+  version: 2.1.0
 projects:
   - name: my-go-project
     clonePath: go/src/github.com/acme/my-go-project
