@@ -9,7 +9,7 @@ projects:
         origin: "https://github.com/slawxx/slawxx.git"
       checkoutFrom:
         revision: main
-  components:
+components:
   - name: myk8deploy
     kubernetes:
       inlined: |
