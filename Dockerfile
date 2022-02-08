@@ -6,6 +6,7 @@ RUN apk add --no-cache \
     libnfnetlink \
     openssl \
     tcpdump \
-    keepalived
+    keepalived \ 
+    ip6tables
 
 CMD [ "/bin/sh", "-ce", "tail -f /dev/null" ]
