@@ -9,3 +9,19 @@ projects:
         origin: "https://github.com/slawxx/slawxx.git"
       checkoutFrom:
         revision: main
+  components:
+  - name: myk8deploy
+    kubernetes:
+      inlined: |
+        apiVersion: batch/v1
+        kind: Job
+        metadata:
+          name: pi
+        spec:
+          template:
+            spec:
+              containers:
+              - name: job
+                image: myimage
+                command: ["some",  "command"]
+              restartPolicy: Never
