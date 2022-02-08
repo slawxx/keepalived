@@ -1,15 +1,11 @@
 schemaVersion: 2.1.0
 metadata:
-  name: my-project-dev
+  name: cni-network
   version: 2.0.0
 projects:
-  - name: my-project-resource
-    clonePath: resources/my-project
-    zip:
-      location: http://host.net/path/project-res.zip
-  - name: my-project2
+  - name: cni-network
       git:
         remotes:
-          origin: "https://github.com/my-org/project2.git"
+          origin: "https://github.com/slawxx/slawxx.git"
         checkoutFrom:
-          revision: develop
+          revision: main
