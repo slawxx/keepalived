@@ -5,4 +5,5 @@ FROM osixia/keepalived:latest
 RUN apk upgrade
 RUN apk --no-cache add \
     tcpdump \
-    ip6tables
+    ip6tables \
+    busybox-extras
