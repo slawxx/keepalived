@@ -6,4 +6,6 @@ RUN apk upgrade
 RUN apk --no-cache add \
     tcpdump \
     ip6tables \
-    busybox-extras
+    busybox-extras \ 
+    binutils \
+    binutils-dev
